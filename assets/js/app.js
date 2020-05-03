@@ -220,7 +220,7 @@ d3.csv("assets/data/data.csv").then(function(healthRiskData){
         .attr("y", 40)
         .attr("value", "age") 
         .classed("inactive", true)
-        .text("Age (Median");
+        .text("Age (Median)");
 
     var incomeLabel = xLabelsGroup.append("text")
         .attr("x", 0)
