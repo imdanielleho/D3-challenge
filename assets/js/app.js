@@ -251,13 +251,13 @@ d3.csv("assets/data/data.csv").then(function(healthRiskData){
       .text("Smokes (%)");
     
     var obeseLabel = yLabelsGroup.append("text")
-    .attr("transform", "rotate(-90)")
-    .attr("y", 0 - margin.left + 15)
-    .attr("x", 0 - (height / 2))
-    .attr("dy", "1em")
-    .attr("value", "obesity")
-    .classed("inactive", true)
-    .text("Obese (%)");
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0 - margin.left + 15)
+      .attr("x", 0 - (height / 2))
+      .attr("dy", "1em")
+      .attr("value", "obesity")
+      .classed("inactive", true)
+      .text("Obese (%)");
 
 
     // update ToolTip function above csv import
